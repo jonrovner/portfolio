@@ -5,7 +5,7 @@ import { typeSentence} from '../utils.js'
 
 const Hero = () => {
     useEffect( ()=>{
-        setTimeout(()=>{typeSentence("Web developer", "hero", 150)}, 2200)
+        setTimeout(()=>{typeSentence("Full-Stack Web developer", "title", 150)}, 2200)
 
     
     }, [])
