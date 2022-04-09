@@ -1,4 +1,11 @@
 .App {
-  text-align: center;
+  height: 100vh;
 }
-
+.home{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}

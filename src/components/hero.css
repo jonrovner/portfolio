@@ -1,5 +1,5 @@
 #hero {
-    height: 95vh;
+    height: 30vh;
     margin-bottom: 2rem;
     position: relative;    
     display: flex;
@@ -18,6 +18,10 @@
     max-width: 80%;     
     
 }
+#subtitle{
+    padding-top: 5%;          
+    font-size: 1rem;
+}
 
 h2{        
     margin-left: auto;
@@ -26,6 +30,50 @@ h2{
     font-family: 'Special Elite', cursive; 
     font-size: 1rem;
          
+}
+
+#features{
+    display: flex;
+    gap: 1rem;
+}
+
+.feature{
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+
+}
+.feature h3{
+    color:#eeece6;
+    font-size: 1.2rem;
+    font-weight:200;
+}
+.feature img{
+    padding-top: 2rem;
+    width: 60%;
+    height: 50%;
+}
+.feature p{
+    font-family:'Special Elite', cursive;
+    line-height: 1.25rem;
+    
+    width: 80%;
+    text-align: center;
+    color: #eeece6;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+#database img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 40%;
+
 }
 
 #canvas{
