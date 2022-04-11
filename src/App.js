@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
-import Head from './components/Head'
-import Hero from './components/Hero';
+import Head from "./components/Head";
+import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <Head />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
 
