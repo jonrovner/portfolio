@@ -193,4 +193,27 @@ h2{
 }
 
 
+.otherProjects{
+  max-width: 50rem;
+  display: flex;
+  gap: 1rem;
 
+}
+.otherProjects .projectHead .title{
+  max-width: 20rem;
+
+
+}
+.otherProjects img{
+  width: 80%;
+}
+.otherProjects .projectHead{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.otherProjects .projectHead img{
+
+}
